@@ -12,10 +12,10 @@ Betalingssystem og planinnhold
 
 ## Teknologier Brukt
 
-React for frontend-utvikling
-JavaScript (ES6+) for logikk
-Firebase for backend og autentisering
-Firebase Firestore for database
-JSX for komponentstruktur
-CSS for styling og responsive design
-React Router for navigasjon
+- React for frontend-utvikling
+- JavaScript (ES6+) for logikk
+- Firebase for backend og autentisering
+- Firebase Firestore for database
+- JSX for komponentstruktur
+- CSS for styling og responsive design
+- React Router for navigasjon
