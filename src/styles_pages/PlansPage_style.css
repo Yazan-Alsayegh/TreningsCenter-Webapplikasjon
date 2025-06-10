@@ -1,0 +1,29 @@
+/* Author Dilovan Muradyan */
+
+.Plans-main-section {
+    gap: 20px;
+    min-height: 300px;
+    background-color: var(--primary-color);
+}
+
+.Accordion-section h2{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+
+}
+
+.Plans-main-section h5 {
+    text-transform: uppercase;
+}
+
+.Plans-main-section h2 {
+    text-transform: uppercase;
+}
+
+.Plans-prices-section {
+    padding-top: 1cm;
+    padding-bottom: 1cm;
+}
+
+

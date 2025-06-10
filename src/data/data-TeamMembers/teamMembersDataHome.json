@@ -1,0 +1,32 @@
+[
+    {
+        "imageSrc": "/Images/images-TeamMembers/MS.png",
+        "name": "Markus Markusen",
+    "position": "[ Fitness Coach ]",
+        "social": {
+            "facebook": "https://www.facebook.com/tiniussf",
+            "linkedin": "https://www.linkedin.com/in/tinius-saether-80566826a//"
+        }
+        
+    },
+    {
+        "imageSrc": "/Images/images-TeamMembers/OSA.jpeg",
+        "name": "Kari Johansen",
+        "position": "[ Crossfit Coach ]",
+        "social": {
+            "facebook": "http://facebook.com/memberprofile",
+            "linkedin": "http://linkedin.com/in/memberprofile"
+        }
+         
+    },
+    {
+        "imageSrc": "/Images/images-TeamMembers/IHAB.jpeg",
+        "name": "Per Gunnar",
+        "position": "[ Swimming Coach ]",
+        "social": {
+            "facebook": "https://www.facebook.com/Dilovan.Muradyan",
+            "linkedin": "https://www.linkedin.com/in/dilovanzm/"
+        }
+         
+    }
+]

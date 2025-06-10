@@ -1,0 +1,18 @@
+{
+    "stepOne": [
+      { "name": "firstName", "label": "First Name" },
+      { "name": "lastName", "label": "Last Name" },
+      { "name": "dob", "label": "Date of Birth" },
+      { "name": "phoneNumber", "label": "Phone Number" }
+    ],
+    "stepTwo": [
+      { "name": "email", "label": "Email" },
+      { "name": "password", "label": "Password" }
+    ],
+    "stepThree": [
+      { "name": "cardNumber", "label": "Card Number" },
+      { "name": "cvv", "label": "CVV" },
+      { "name": "expDate", "label": "Expiration Date" }
+    ]
+  }
+  

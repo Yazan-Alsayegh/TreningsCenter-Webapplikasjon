@@ -1,0 +1,21 @@
+/* Author Zafar Alem */
+.contact-content {
+    /* Styles for the contact content section */
+    padding: 10px;
+    color: var(--accent-color);
+}
+
+
+.passwordField input[type="password"] {
+    margin-top: -10px;
+    font-size: 1em;
+    color: var(--accent-color); /* Change the color to your desired color */
+}
+
+.passwordField input {
+    border: none!important;
+    background: none!important;
+}
+
+
+

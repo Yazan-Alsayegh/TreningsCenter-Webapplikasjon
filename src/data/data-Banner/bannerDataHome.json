@@ -1,0 +1,19 @@
+{
+  "animationDelay": 3500,
+  "buttonText": "SIGN UP",
+  "items": [
+    {
+      "type": "text",
+      "slogan": {
+        "firstPart": "ZEN FITNESS",
+        "secondPart": "Tranquility Through Transformation"
+      }
+    },
+    {
+      "type": "video",
+      "videoURL": "/videos/ZEN-video-banner.mp4",
+      "altImageURL": "/images/altBannerImage.jpg",
+      "altText": "Zen Fitness - Nurture Your Health Through Peace & Strength"
+    }
+  ]
+}

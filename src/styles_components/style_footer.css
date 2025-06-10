@@ -1,0 +1,191 @@
+/*Author Ihab Laboud */
+
+footer ul {
+  margin: 0;
+  padding: 0;
+}
+
+.footer {
+  background: var(--secondary-color);
+  position: relative;
+  width: 100%;
+  overflow-x: hidden;
+}
+
+.container {
+  background-color: transparent !important;
+  padding-left: 10% !important;
+}
+
+.footer-contact {
+  position: relative;
+}
+
+.footer-contact::after {
+  content: "";
+  position: absolute;
+  bottom: -10px;
+  width: 95%; 
+  border-bottom: 1px solid var(--accent-color);
+}
+
+.footer-contact-item {
+  color: var(--accent-color);
+  font-size: 20px;
+  float: left;
+  margin-top: 8px;
+  display: flex; 
+  align-items: center; 
+}
+
+/* Styling for text within call-to-action items */
+.footer-contact-text {
+  padding-left: 15px;
+  display: inline-block;
+}
+
+/* Styling for heading within call-to-action items */
+.footer-contact-text h1 {
+  color: #fff;
+  font-size: 20px;
+  font-weight: 600;
+  margin-bottom: 1px;
+}
+
+.footer-contact-text a {
+  color: var(--accent-color);
+  font-size: 15px;
+  text-decoration: underline;
+}
+
+.footer-logo-img {
+  max-width: 120px;
+}
+
+.footer-text p {
+  font-size: 16px;
+  color: var(--text-color);
+  line-height: 32px;
+  margin: 2px 0;
+}
+
+.facebook-bg,
+.twitter-bg,
+.instagram-bg,
+.linkedin-bg {
+  border-radius: 50%;
+  margin-right: 10px;
+  color: #fff;
+  width: 35px;
+  height: 35px;
+  text-align: center;
+  padding: 5px;
+  margin-bottom: 20px;
+}
+
+.facebook-bg {
+  background-color: #1877f2;
+}
+
+.twitter-bg {
+  background-color: #000;
+}
+
+.instagram-bg {
+  background: linear-gradient(45deg, #405DE6, #5851DB, #833AB4, #C13584, #E1306C, #FD1D1D, #F56040, #F77737, #FCAF45, #FFDC80);
+}
+
+.linkedin-bg {
+  background-color: #0077B5;
+}
+
+/* Styling for social media icon label */
+.footer-social-icon span {
+  color: var(--accent-color);
+  display: block;
+  font-size: 20px;
+  font-weight: 700;
+  font-family: 'Poppins', sans-serif;
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
+
+/* Styling for heading within footer widgets */
+.footer-widget-heading h2 {
+  color: var(--accent-color);
+  font-size: 20px;
+  font-weight: 600;
+  margin-bottom: 20px;
+  position: relative;
+  white-space: nowrap;
+}
+
+.footer-widget-heading h2::before {
+  content: "";
+  position: absolute;
+  bottom: -15px;
+  height: 2px;
+  width: 50px;
+  background: var(--accent-color);
+}
+
+.footer-widget ul li {
+  list-style-type: none;
+  width: 50%;
+  margin-bottom: 12px;
+}
+
+.footer-widget ul li a:hover {
+  color: var(--primary-color);
+  text-decoration: none;
+  transition: all 0.3s ease;
+  transform: translateY(-3px);
+}
+
+.footer-widget ul li a {
+  color: var(--text-color);
+  text-transform: capitalize;
+  text-decoration: none;
+  font-size: 16px;
+}
+
+.footer-copyright {
+  background: var(--accent-color);
+}
+
+/* Styling for copyright text */
+.footer-copyright-text p{
+  font-size: 15px;
+  color: var(--light-color);
+  text-align: center;
+  padding-top: 10px;
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+  /* Center the "call us" header */
+  .footer-contact-item:nth-child(3) {
+    text-align: center;
+  }
+
+  /* Align "mail us" and "visit us" to the left */
+  .footer-contact-item:nth-child(1),
+  .footer-contact-item:nth-child(2) {
+    text-align: left;
+  }
+
+  .footer-contact-item svg {
+    margin-right: 5px; 
+    vertical-align: middle;
+  }
+
+  .footer-contact-text h1 {
+    font-size: 18px; /* Adjust the font size as needed */
+  }
+}
+
+@media (min-width: 576px) and (max-width: 767px) {
+  /* Increase spacing between columns */
+  .footer-content .col-md-3 {
+    margin: 10px 10px 10px 0; 
+  }
+}

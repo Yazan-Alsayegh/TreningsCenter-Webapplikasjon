@@ -1,0 +1,402 @@
+/* Author: Dilovan Muradyan */
+
+@import url("https://netdna.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.css");
+
+.fa-check:before {
+    display: none;
+}
+
+.section-title-separator {
+    border: none;
+    height: 2px;
+    background-color: var(--secondary-color, #122620);
+    width: calc(80% - 6cm);
+    margin: 20px auto 30px; 
+}
+  
+.title-container-plans {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    margin-bottom: 20px; 
+}
+
+.sectionSubTitle, .sectionTitle {
+    margin-bottom: 10px; 
+}
+
+.Plans .image-container {
+    position: relative;
+    width: 100%;
+    height: auto;
+}
+
+.Accordion-section ul {
+    list-style-position: inside; 
+    padding-left: 0; 
+    margin-left: 40px; 
+}
+
+.image-container img {
+    width: 100%;
+}
+
+.Plans .image-container .Plans-header-image {
+    width: 100%;
+    height: auto;
+}
+
+.pricing-container h2 {
+    color: #D6AD60; 
+}
+
+.sectionSubTitle {
+    color: var(--secondary-color);
+}
+
+.Plans-prices-section {
+    background-color: var(--background-color);
+    min-height: 200px;
+    margin-top: -20px;
+}
+
+.box {
+    width: 200px;
+}
+
+.Plans-main-section {
+    background-color: var(--secondary-color);
+    min-height: 300px;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.Plans-sub-section {
+    background-color: var(--secondary-color);
+    min-height: 600px;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.main-heading {
+    text-align: center;
+    color: var(--background-color);
+}
+
+.main-subheading {
+    text-align: center;
+    color: var(--background-color);
+}
+
+.main-separator {
+    background-color: #CCCCCC;
+    height: 2px;
+    width: calc(75% - 6cm);
+    margin: 20px 3cm;
+}
+
+.Plans-info-section {
+    background-color: var(--secondary-color);
+    padding: 20px 0; 
+}
+
+.pricing-container {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.plan-switch {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  margin-bottom: 20px;
+  width: 100%;
+  max-width: 400px;
+}
+
+.switch-container {
+  width: 70px;
+  height: 37px;
+  margin: 0 10px;
+  border: 2px solid var(--accent-color);
+  border-radius: 100px;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+
+.price-span {
+  font-size: 1.5rem;
+  line-height: 1.2;
+  flex: 1;
+  text-align: center;
+}
+
+.switch-container--box {
+  width: 30px;
+  height: 30px;
+  background: var(--accent-color);
+  border-radius: 50%;
+  margin: 0 3px;
+  transition: transform 300ms;
+}
+
+.switch-container--box--move {
+  transform: translateX(100%);
+}
+
+.cards {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.price-card {
+  width: 250px;
+  height: auto;
+  margin: 20px;
+  border-radius: 10px;
+  background: linear-gradient(var(--secondary-color) 20%, var(--light-fade) 80%);
+  transition: all 300ms;
+}
+
+.price-card:hover {
+  transform: scale(1.05);
+}
+
+.price-card--top {
+  height: 30%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  color: var(--text-color);
+  padding: 15px;
+}
+
+.price-card--top h3 {
+  font-size: 1.8rem;
+  font-weight: 200;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+
+.price-card--top h5 {
+  font-size: 1.2rem;
+  font-weight: 400;
+}
+
+.price-card--top span {
+  font-size: 2.5rem;
+  position: relative;
+  top: 5px;
+  margin: 0 5px;
+}
+
+.price-card--top hr {
+  width: 90%;
+  color: var(--text-color);
+  margin-top: 30px;
+}
+
+.price-card--bottom {
+  height: 70%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 2px;
+}
+
+.price-card--bottom ul {
+  list-style: none;
+  padding: 0 0 0 30px;
+}
+
+.price-card--bottom ul li {
+  font-size: 1rem;
+  margin-bottom: 5px;
+  color: var(--text-color);
+}
+
+.price-card--bottom ul li::before {
+  content: '\2713';
+  font-size: 1rem;
+  margin-right: 10px;
+  color: var(--accent-color);
+  font-weight: 700;
+}
+
+.price-card--bottom .btn {
+  display: block;
+  padding: 8px 20px;
+  margin: 30px auto;
+  font-size: 1.2rem;
+  border: none;
+  border-radius: 10px;
+  color: var(--light-color);
+  font-weight: 700;
+  text-transform: uppercase;
+  background: var(--accent-color);
+  transition: background 500ms;
+}
+
+.price-card--bottom .btn:hover {
+  cursor: pointer;
+  background: none;
+  color: var(--accent-color);
+  border: solid 2px var(--accent-color);
+}
+
+.price-card.premium {
+  background: linear-gradient(var(--secondary-color) 20%, var(--dark-fade) 80%);
+  box-shadow: 0 0 30px rgba(112, 112, 112, 0.7); /* Increased spread and intensity */
+  animation: glow 1s infinite alternate;
+}
+
+.price-card.premium h3 {
+  width: 115%;
+  font-weight: 300;
+  height: max-content;
+  color: var(--light-fade);
+  text-align: center;
+  background: linear-gradient(120deg, var(--accent-color) 40%, var(--dark-fade) 95%);
+ 
+}
+
+.price-card.premium .btn {
+  background-color: var(--accent-color); /* Highlighted background color for premium plan button */
+  color: var(--light-color);
+}
+
+.price-card.premium .btn:hover {
+  background: none;
+  color: var(--accent-color);
+  border: solid 2px var(--accent-color);
+}
+
+.price-text {
+  font-weight: 400;
+  text-decoration: underline;
+  color: var(--accent-color);
+  font-size: 1.2rem !important;
+}         
+
+/* --------------------------  MEDIA QUERIES  ----------------------- */
+
+@media screen and (max-width: 820px) {
+  .cards {
+    width: 100%; /* Ensures cards take full width on smaller screens */
+  }
+
+  .price-card {
+    width: 250px;
+    height: auto;
+    margin: 10px;
+  }
+
+  .price-card--top h3 {
+    font-size: 1.5rem;
+  }
+
+  .price-card--top h5 {
+    font-size: 1rem;
+  }
+
+  .price-card--top span {
+    font-size: 2rem;
+  }
+
+  .price-card--bottom ul {
+    padding: 30px 0 0 30px;
+  }
+
+  .price-card--bottom ul li {
+    font-size: 0.9rem;
+  }
+}
+
+@media screen and (max-width: 460px) {
+  .cards {
+    flex-direction: column; /* Stacks cards vertically on small screens */
+    align-items: center; 
+  }
+
+
+  .price-card {
+    width: 280px;
+    height: auto;
+    margin: 10px 0;
+  }
+
+  .price-card--top h3 {
+    font-size: 1.5rem;
+  }
+
+  .price-card--top h5 {
+    font-size: 1rem;
+  }
+
+  .price-card--top span {
+    font-size: 1.8rem;
+  }
+
+  .price-card--bottom ul {
+    padding: 20px;
+  }
+
+  .price-card--bottom ul li {
+    font-size: 0.9rem;
+  }
+
+  .price-card--bottom .btn {
+    padding: 6px 15px;
+    font-size: 1rem;
+  }
+}
+@media screen and (max-width: 320px) {
+  .cards {
+    flex-direction: column; /* Stacks cards vertically on very small screens */
+    align-items: center; 
+  }
+
+  .price-card {
+    width: 250px;
+    height: auto;
+    margin: 10px 0;
+  }
+
+  .price-card--top h3 {
+    font-size: 1.4rem;
+  }
+
+  .price-card--top h5 {
+    font-size: 1rem;
+  }
+
+  .price-card--top span {
+    font-size: 1.6rem;
+  }
+
+  .price-card--bottom ul {
+    padding: 20px;
+  }
+
+  .price-card--bottom ul li {
+    font-size: 0.8rem;
+  }
+
+  .price-card--bottom .btn {
+    padding: 5px 12px;
+    font-size: 0.9rem;
+  }
+}

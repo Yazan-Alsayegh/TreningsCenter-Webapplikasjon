@@ -1,0 +1,142 @@
+/* Author: Zafar Alem & Ihab Laboud */
+
+.navbar {
+  background-color: var(--secondary-color); 
+  z-index: 1000; 
+  display: flex;
+  justify-content: center;
+}
+
+.logo-img {
+  padding: 5px;
+  height: auto; 
+  max-height: 100px; 
+}
+
+
+.nav-link {
+  color: var(--text-color);
+  padding: 10px;
+  position: relative;
+  font-size: 1.4em;
+}
+
+.nav-link::before {
+  background: var(--accent-color);
+  border-radius: 3px;
+  content: "";
+  inset: 0;
+  position: absolute;
+  transform: scaleX(0);
+  transform-origin: right;
+  transition: transform 0.3s ease-in-out;
+  z-index: -1;
+}
+
+.nav-link:hover::before,
+.nav-link:focus::before { 
+  transform: scaleX(1);
+  transform-origin: left;
+}
+
+.nav-link:hover,
+.nav-link:focus { 
+  color: var(--secondary-color); 
+}
+
+
+
+/* Navbar hamburger menu icon link. Since bootstrap uses a svg, and not icon/image as hamburger menu we have to edit the code of the svg */
+.navbar-toggler-icon {
+  background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='%23231610' stroke-linecap='round' stroke-miterlimit='10' stroke-width='4' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+}
+.navbar-toggler {
+  border: none;
+  height: fit-content;
+  align-self: center;
+  padding: 10px;
+}
+
+.navbar-toggler:focus {
+  box-shadow: none;
+}
+/* Buttons */
+
+.d-flex  {
+  gap: 10px;
+}
+
+/* Common styles for login button and member icon */
+.btn-navbar {
+  font-weight: 700;
+  background-color: var(--accent-color);
+  color: var(--secondary-color);
+  font-size: 1.3rem;
+  border: 2px solid var(--accent-color);
+}
+
+.btn-navbar:hover {
+  border: 2px solid var(--accent-color);
+  color: var(--accent-color);
+  background-color: var(--secondary-color);
+}
+
+/* Navbar slide effects */
+.navbar-collapse {
+  transition: max-height 0.3s ease, opacity 0.3s ease;
+  max-height: 0;
+  opacity: 0;
+  overflow: hidden;
+}
+
+.navbar-collapse.show {
+  max-height: 500px;
+  opacity: 1;
+}
+
+
+
+/* -------------- Media queries -------------- */
+
+@media (min-width: 992px) {
+  .navbar-collapse {
+    transition: none;
+    max-height: none;
+    opacity: 1;
+    overflow: visible;
+  }
+}
+
+/* Media query for larger screens */
+@media (min-width: 1100px) {
+  .navbar-nav .nav-link {
+    font-size: 20px; 
+    padding: 0.5rem 0.75rem; 
+    margin-right: 1.5rem; 
+    white-space: nowrap;
+  }
+  .navbar-nav {
+    padding-left: 5%!important;
+  }
+  
+}
+
+@media (max-width: 1000px) {
+
+}
+
+
+@media (max-width: 991px) {
+  .logo-hamb-icon-responsive {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .d-flex  {
+    padding-top: 10px;
+    display: flex;
+  }
+
+
+}

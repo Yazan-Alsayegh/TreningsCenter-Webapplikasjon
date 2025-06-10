@@ -1,0 +1,58 @@
+/* ---- Cardbox ---- */
+.cardboxSection {
+  text-align: center;
+}
+
+.cardboxSectionHome {
+  background: linear-gradient(180deg, var(--primary-color), var(--light-color)) ;
+}
+
+
+
+/* ---- Prices ---- */
+.plansSection {
+  padding-top: 50px;
+  padding-bottom: 50px;
+  background: linear-gradient(90deg, var(--light-fade), var(--light-color)) ;
+  box-shadow: inset 0 0 30px rgba(78, 78, 78, 0.7);
+
+}
+
+.plansTitle {
+  text-transform: uppercase;
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.plansTitle h5 {
+  font-weight: 500;
+  color: var(--secondary-color);
+
+}
+
+.plansTitle h2 {
+  font-weight: 600;
+  color: var(--accent-color);
+
+}
+
+/* ---- TeamMembers ---- */
+.teamMembersSectionHome {
+  color: var(--text-color);
+  text-align: center;
+  background: linear-gradient(90deg, var(--dark-fade), var(--secondary-color));
+}
+
+/* Testimonials section */
+.testimonialsSection {
+  background: linear-gradient(120deg, var(--light-fade), var(--dark-fade));
+}
+
+
+/* Subhero section */
+.subHeroSectionHome {
+  -webkit-box-shadow: inset 0 20px 20px -20px rgba(0, 0, 0, 0.8);
+  -moz-box-shadow: inset 0 20px 20px -20px rgba(0, 0, 0, 0.8);
+  box-shadow: inset 0 20px 20px -20px rgba(0, 0, 0, 0.8);
+  background: linear-gradient(90deg, var(--light-fade), var(--primary-color));
+}

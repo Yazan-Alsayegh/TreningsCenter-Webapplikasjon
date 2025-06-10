@@ -1,0 +1,64 @@
+/* Author Dilovan Muradyan */
+
+.faq-accordion-section {
+    background-color: var(--light-color); 
+    padding: 1cm 0; 
+}
+
+.faq-accordion-section h2 {
+    color: var(--text-color);
+    text-align: center;
+}
+
+.Accordion-section {
+    margin-top: 2cm;
+}
+
+.Accordion-section h2 {
+    color: var(--text-color);
+    text-align: center;
+}
+
+.accordion {
+    width: 60%; 
+    margin: 1em auto; 
+    background: var(--background-color); 
+    box-shadow: none; 
+}
+
+.accordion label {
+    background-color: var(--background-color); 
+    color: #000; 
+    padding: 1em 2.5em 1em 1em; 
+    display: block;
+    margin: 0; 
+    border-bottom: 1px solid #000; 
+    position: relative;
+    font-size: 20px;
+    cursor: pointer; 
+    transition: background-color 0.4s;
+}
+
+.accordion label:after {
+    content: '\002B'; /* Plus symbol */
+    color: #777;
+    font-weight: bold;
+    position: absolute;
+    right: 1em;
+    top: 50%;
+    transform: translateY(-50%);
+    transition: transform 0.3s ease-in-out; /* Adds a transition effect on transform */
+}
+
+.accordion label.active:after {
+    content: "\2212"; /* Changes the symbol to a minus when active */
+}
+
+.accordion .accordion-content {
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.2s ease-out; /* Adds a transition effect on max height */
+    padding: 0 1em;
+    background-color: #e9e9e9;
+}
+

@@ -1,0 +1,45 @@
+{
+  "Carousel_HeaderTitle": "OUR SERVICES",
+  "Carousel_HeaderText": "Where your journey to fitness excellence begins. Embark on a transformative experience as you explore our array of personalized training programs meticulously crafted to align with your individual goals. Whether you're striving to build muscle, shed those extra pounds, or enhance your overall well-being, our expert trainers are here to guide you every step of the way. \n\nImmerse yourself in a world of unparalleled fitness amenities, including access to premier swimming facilities where you can dive into invigorating laps and harness the power of aquatic fitness. As you push your limits in the pool, feel the stress melt away as you indulge in moments of pure relaxation in our complimentary sauna service. \n\n Join us at ZEN Gym today and unlock the full potential of your wellness journey. Elevate your fitness routine, rejuvenate your spirit, and discover the true meaning of health and vitality with us.",
+  
+
+  "section_1": [
+    {
+      "src": "/images/images-Carousel/gym1.jpg",
+      "title": "Your Path to Fitness Success",
+      "description": "Discover the tailored training experience at ZEN Gym, where personalized fitness programs are crafted just for you. Our approach is simple: we focus on your unique goals, preferences, and abilities to create a workout plan that fits your lifestyle and delivers results. With ZEN Gym's tailored training, you'll work closely with our expert trainers to design a fitness routine that suits your needs."
+    },
+    {
+      "src": "/images/images-Carousel/gym2.jpg"
+    },
+    {
+      "src": "/images/images-Carousel/gym3.jpg"
+    }
+  ],
+  "section_2": [
+    {
+      "src": "/images/images-Carousel/gym4.jpg",
+      "title": "ZEN Gym's Swimming Program",
+      "description": "Included with your ZEN Gym membership is access to our premier swimming facilities. Available for all members to enjoy. Whether you're seeking a low-impact workout or a refreshing swim session, our swimming service offers the perfect opportunity to enhance your fitness routine. Join ZEN Gym today and make a step towards a healthier you."
+    },
+    {
+      "src": "/images/images-Carousel/gym5.jpg"
+    },
+    {
+      "src": "/images/images-Carousel/gym6.jpg"
+    }
+  ],
+  "section_3": [
+    {
+      "src": "/images/images-Carousel/Sauna_1.jpg",
+      "title": "ZEN Sauna",
+      "description": "Experience pure relaxation with our complimentary sauna service, included with your ZEN Gym membership. Step into a sanctuary of warmth and rejuvenation, where stress fades and tranquility reigns. Whether you're in need of a post-workout recovery or a moment of calm amidst your busy day, our sauna is here to elevate your wellness journey. Join ZEN Gym today and unlock the key to ultimate relaxation."
+    },
+    {
+      "src": "/images/images-Carousel/Sauna_2.jpg"
+    },
+    {
+      "src": "/images/images-Carousel/Sauna_3.jpg"
+    }
+  ]
+}

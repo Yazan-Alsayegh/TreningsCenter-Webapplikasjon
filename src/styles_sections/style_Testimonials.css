@@ -1,0 +1,62 @@
+/* Author - Ihab Laboud */
+
+.testimonials {
+  padding: 2em 0;
+  text-align: center;
+}
+
+.testimonials-header {
+  margin-bottom: 1em;
+  font-size: 2em;
+  text-align: center;
+  color: var(--text-color);
+}
+
+.testimonial-item {
+  padding: 1em;
+  max-width: 300px; 
+  text-align: center;
+  overflow: hidden; 
+}
+
+.testimonial-text {
+  white-space: normal;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: block; 
+  line-height: 1.5em; 
+  word-wrap: break-word; 
+  font-size: 18px;
+}
+
+.stars {
+  color: var(--accent-color);
+  font-size: 1.5em;
+}
+
+.testimonial-item small {
+  color: var(--text-color);
+  text-decoration: none;
+  font-size: 20px;  
+}
+
+.arrows-container {
+  display: flex;
+  justify-content: center;
+  margin-top: 1em; 
+}
+
+.testimonial-arrow {
+  background-color: transparent;
+  color: black; 
+  border: none; 
+  font-size: 2em; 
+  cursor: pointer;
+  margin: 0 40px;
+  padding: 0;
+  transition: transform 0.2s ease-in-out; 
+}
+
+.testimonial-arrow:hover {
+  transform: translateY(-5px); 
+}

@@ -1,0 +1,99 @@
+/* Author: Zafar Alem */
+
+.cardbox-section {
+  padding: 50px 0;
+}
+
+.section-title {
+  display: inline-block;
+}
+
+.section-title h5 {
+  color: var(--accent-color);
+}
+
+.section-title h2 {
+  font-weight: 600;
+  color: var(--accent-color);
+}
+
+.card-box-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: 0 auto;
+  width: 60%;
+}
+
+.cardbox {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 20px; /* Adjust margin for space between cards */
+  transition: all 0.3s ease;
+  text-align: center; /* Center align text for better appearance */
+}
+
+.card-image {
+  width: 55px;
+  height: 55px;
+  margin-bottom: 20px; /* Add margin for space between image and text */
+  border-radius: 20%;
+}
+
+.card-title {
+  font-size: 1.2em;
+  font-weight: 600;
+  color: var(--accent-color);
+  min-height: 40px; /* Set a minimum height to align titles */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 10px; /* Add margin for space between title and description */
+}
+
+.card-text {
+  font-size: 1em;
+  color: var(--text-color);
+}
+
+
+
+/* --------------------------  MEDIA QUERIES  ----------------------- */
+
+@media (max-width: 799px) {
+  .card-box-container {
+    flex-direction: column; /* Stack all items vertically */
+    align-items: center;
+  }
+
+  .cardbox {
+    width: 100%; /* Full width for each card */
+    max-width: 100%;
+  }
+}
+
+@media (min-width: 800px) and (max-width: 1349px) {
+  .card-box-container {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .cardbox {
+    width: 45%; /* Two columns */
+    margin: 10px; /* Adjust margin */
+  }
+}
+
+@media (min-width: 1350px) {
+  .card-box-container {
+    flex-direction: row;
+    flex-wrap: wrap; /* Wrap items into rows */
+    width: 60%;
+  }
+
+  .cardbox {
+    flex: 1 1 calc(33.33% - 40px); /* Three cards in a row */
+    max-width: calc(33.33% - 40px);
+  }
+}

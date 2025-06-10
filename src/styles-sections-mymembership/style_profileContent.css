@@ -1,0 +1,38 @@
+/* ProfileContent.css */
+.profile-content {
+    /* Styles for the profile content section */
+    padding: 10px;
+    color: var(--accent-color);
+    width: 100%;
+}
+.profile-data {
+    display: grid;
+    gap: 30px;
+}
+
+.profile-header, .profile-footer {
+    display: flex;
+    justify-content: space-between;
+}
+
+#userFullName {
+    font-size: 1.6rem;
+    font-weight: 700;
+    padding-bottom: 5px;
+}
+
+#userRegDate, #membershipStatus {
+    text-align: right;
+}
+
+.tabTitle {
+    display: flex;
+    margin-bottom: 20px;
+    padding-bottom: 5px;
+
+}
+
+
+.user-info {
+    display: grid;
+}

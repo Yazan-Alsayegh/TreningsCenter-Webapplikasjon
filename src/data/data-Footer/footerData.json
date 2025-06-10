@@ -1,0 +1,62 @@
+{
+  "address": {
+    "title": "Visit Us",
+    "content": "Raveien 189, Borre"
+  },
+  "phone": {
+    "title": "Call Us",
+    "number": "116 123"
+  },
+  "email": {
+    "title": "Mail Us",
+    "address": "zenfitness@support.com"
+  },
+  "about": "Dive into our state-of-the-art facilities, offering everything from invigorating workouts to refreshing swims and calming sauna sessions. Experience the perfect fusion of strength, tranquility, and well-being.",
+  "socialMedia": {
+    "title": "Follow us",
+    "links": [
+      {"platform": "facebook", "url": "https://www.facebook.com/"},
+      {"platform": "twitter", "url": "https://twitter.com/"},
+      {"platform": "instagram", "url": "https://www.instagram.com/"},
+      {"platform": "linkedin", "url": "https://www.linkedin.com/"}
+    ]
+  },
+  "quickLinks": {
+    "title": "Quick Links",
+    "links": [
+      {"url": "/", "label": "Home"},
+      {"url": "/services", "label": "Services"},
+      {"url": "/plans-page", "label": "Plans"},
+      {"url": "/about-us", "label": "About Us"},
+      {"url": "/faq", "label": "FAQ"},
+      {"url": "#contact-us", "label": "Contact Us"}
+    ]
+  },
+  "usefulLinks": {
+    "title": "Useful Links",
+    "links": [
+      {"url": "https://www.muscleandstrength.com/workout-routines", "label": "Workout Plans"},
+      {"url": "https://www.eatingwell.com/category/4305/weight-loss-meal-plans/", "label": "Meal Plans"},
+      {"url": "https://www.calculator.net/calorie-calculator.html", "label": "Calorie Calculator"},
+      {"url": "https://www.reddit.com/r/Fitness/", "label": "Fitness Forum"}
+    ]
+  },
+  "openingHours": {
+    "title": "Opening Hours",
+    "schedule": [
+      {
+        "days": "Monday – Friday",
+        "hours": "06.00 – 00.00"
+      },
+      {
+        "days": "Saturday",
+        "hours": "08.00 – 23.00"
+      },
+      {
+        "days": "Sunday",
+        "hours": "10.00– 22.00"
+      }
+    ]
+  },
+  "copyright": "Copyright © 2024, All Right Reserved"
+}

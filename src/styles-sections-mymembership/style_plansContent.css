@@ -1,0 +1,135 @@
+/* PlansContent.css */
+/* Author: Zafar Alem */
+
+.plan-data {
+    padding: 10px;
+}
+
+.plan-data-fields {
+    display: flex;
+    justify-content: space-between;
+}
+
+.plan-field {
+   margin-bottom: 15px; 
+}
+
+.plan-top-part {
+    min-width: 40%;
+}
+
+.planName-field {
+    display: grid;
+}
+
+.footer-buttons {
+    display: flex;
+    justify-content: space-between;
+}
+/* Custom styles for react-select */
+.select-wrapper .react-select__control {
+    background-color: var(--secondary-color);
+    color: var(--text-color);
+    width: max-content;
+}
+
+.select-wrapper .react-select__menu {
+    background-color: var(--accent-color);
+    color: var(--light-color);
+    width: 100px;
+
+}
+
+/* HOVER */
+.select-wrapper .react-select__control {
+    background-color: var(--secondary-color);
+    color: var(--text-color);
+    width: max-content;
+}
+
+.select-wrapper .react-select__menu {
+    background-color: var(--secondary-color);
+    color: var(--text-color);
+    width: 100px;
+}
+
+
+.select-wrapper .react-select__option--is-focused,
+.select-wrapper .react-select__option--is-focused:hover {
+    background-color: var(--primary-color);
+    color: var(--text-color);
+    transition: 0.7s;
+}
+
+/* USERS CURRENT SELECTED PLAN */
+.select-wrapper .react-select__option--is-selected {
+    background-color: var(--accent-color);
+    color: var(--light-color);
+}
+
+.select-wrapper .react-select__single-value {
+    color: var(--text-color);
+}
+
+
+
+.planStartDate {
+    text-align: right;
+    min-width: 40%;
+}
+
+#currentPlan-sign {
+    color: var(--secondary-color);
+}
+
+.plan-field select {
+    margin-bottom: 15px; 
+ }
+
+/* TOGGLE SWITCH */
+.custom-toggle-switch {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    min-width: 40%;
+}
+
+.toggle-label {
+    font-size: 14px;
+    color: var(--color);
+    font-weight: 500;
+}
+
+.toggle-container {
+    position: relative;
+    width: 60px;
+    height: 34px; 
+    padding: 4px;
+    border: 2px solid var(--accent-color);
+    border-radius: 100px;
+    cursor: pointer;
+}
+
+.toggle-button {
+    position: absolute;
+    top: 50%;
+    left: 2px;
+    transform: translateY(-50%);
+    width: 26px;
+    height: 26px;
+    background-color: var(--accent-color);
+    border-radius: 50%;
+    transition: transform 0.3s;
+}
+
+.toggle-button--active {
+    transform: translateY(-50%) translateX(26px);
+}
+
+/* ------ Media queries ------- */
+
+@media (min-width: 550px) {
+    .toggle-label {
+        font-size: 0.8em;
+    }
+}

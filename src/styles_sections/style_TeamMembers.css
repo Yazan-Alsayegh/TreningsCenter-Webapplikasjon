@@ -1,0 +1,114 @@
+/* Author - Tinius S-F */
+.teamMembers-body {
+  position: relative;
+  margin: 0;
+  padding: 0;
+  color: var(--text-color);
+}
+
+.teamMembers-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  padding:  0px 0;
+}
+
+.teamMembers-main-title {
+  padding-top: 30px;
+  text-align: center;
+}
+
+.teamMembers-body h5 {
+  text-transform: uppercase;
+  font-weight: 500;
+  color: var(--text-color);
+
+ }
+.teamMembers-body h2 {
+  font-weight: 600;
+  color: var(--accent-color);
+
+ }
+
+.teamMembers-subtitle {
+  text-align: center;
+  color: var(--text-color);
+  font-size: 1.8rem;
+}
+
+.teamMembers-rectangle {
+  margin: 20px;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  transition: all 0.3s ease;
+  width: 300px;
+  flex: 0 0 auto;
+  background: none;
+  box-shadow: none;
+}
+
+.teamMembers-rectangle:hover {
+  transform: translateY(-5px);
+}
+
+.teamMembers-info {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 600;
+  color: var(--text-color);
+  font-size: 1rem;
+  margin: 1rem 0;
+}
+
+.teamMembers-image {
+  width: 250px;
+  height: 250px;
+  border-radius: 2%;
+  border: 3px solid var(--light-color);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+  background-color: var(--light-color);
+  position: relative;
+  z-index: 1;
+  transition: transform 0.3s ease;
+}
+
+.teamMembers-image:hover {
+  transform: scale(1.05);
+}
+
+.teamMembers-social-icons {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  margin-top: 15px;
+}
+
+.teamMembers-social-icon-link {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 36px;
+  height: 36px;
+  border-radius: 50%;
+  background-color: var(--light-color);
+  text-decoration: none;
+}
+
+.teamMembers-social-icon-link:hover {
+  background-color: var(--accent-color);
+  color: #ffffff;
+}
+@media (max-width: 767px) {
+  .teamMembers-container {
+    flex-direction: column;
+  }
+
+  .teamMembers-rectangle {
+    width: 90%;
+    margin: 20px auto;
+  }
+}

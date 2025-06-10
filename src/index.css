@@ -1,0 +1,107 @@
+/* index.css */
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Cinzel+Decorative:wght@400;700;900&family=Lora:ital,wght@0,400..700;1,400..700&family=Quicksand:wght@300..700&display=swap');
+
+html {
+  font-size: 16px; /* Set a base font size */
+}
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: var(--background-color);
+}
+
+
+
+/* Global color variables */
+:root {
+  --primary-color: #E0DFDB;
+  --secondary-color: #C7AB8E;
+  --accent-color: #231610;
+  --border-color: #5F3B28;
+  --light-color: #ffffff;
+  --text-color: #231610;
+  --dark-color: rgb(0, 9, 8);
+  --dark-fade: #8F7D66;
+  --light-fade: #E8DCC2;
+  --transparent: rgba(255, 255, 255, 0);
+}
+
+/* 
+grå: E0DFDB
+lysebrun: 8D725C
+Beige: C7AB8E
+Brun: 5F3B28
+mørkest: 231610
+*/
+
+/* Other global styles */
+
+h1 {
+  font-family: "Cinzel Decorative", serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+h2 {
+  font-family: "Lora", serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+
+h5 {
+  font-family: "Bebas Neue", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+p {
+  font-family: "Quicksand", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+}
+
+li {
+  font-family: "Quicksand", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+}
+
+/* styles */
+
+h2.section-title {
+  font-size: 2.5rem;
+  text-align: center;
+  text-transform: uppercase;
+
+}
+
+h5.section-subtitle  {
+  font-size: 2.2rem;
+  text-align: center;
+  text-transform: uppercase;
+
+}
+
+ input {
+  font-weight: 500;
+  padding: 3px;
+  margin-bottom: 10px;
+  border: 3px solid var(--accent-color);
+  background-color: var(--secondary-color);
+  border-radius: 7px;
+  transition: 0.2s;
+}
+
+ input:focus {
+  background-color: var(--primary-color);
+  color: var(--dark-color);
+}
+
+ input::after {
+  transition: 0.2s;
+}

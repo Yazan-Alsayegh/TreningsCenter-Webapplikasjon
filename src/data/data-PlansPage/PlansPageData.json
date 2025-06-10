@@ -1,0 +1,51 @@
+{
+    "mainSection": {
+        "subheading": "Choose the membership that suits your needs",
+        "heading": "BECOME A MEMBER AT ZEN FITNESS"
+    },
+    "accordionData": [
+        {
+            "title": "Can I contact someone before signing up?",
+            "content": [
+                "<p><strong>Do you wish to talk to someone before taking your decision?</strong></p>",
+                "<p>Take contact with one of our highly competent employees; 116 123.</p>",
+                "<p>Not feeling like talking to someone? Send us an email; zenfitness@support.com</p>",
+                "<p>One of our employees will help you with whatever you're wondering about and inform you of the best possible plans suiting your needs.</p>"
+            ]
+        },
+        {
+            "title": "Is there a drop-in option?",
+            "content": [
+                "<p><strong>Of course! The drop-in fee is 200,- and gives you access to:</strong></p>",
+                "<ul>",
+                "<li>Self-training in the studio</li>",
+                "<li>Access to the swimming facility</li>",
+                "<li>Pay for drop-in at the center's reception (valid ONLY for the current day).</li>",
+                "</ul>",
+                "<p>If you wish to become a member within the next 30 days, we will refund the drop-in fee. Please send a picture of the receipt to customer service.</p>"
+            ]
+        },
+        {
+            "title": "Is there an age limit at Zen Fitness?",
+            "content": [
+                "<p><strong>What are the age limits at Zen Fitness?</strong></p>",
+                "<p>The age limit to become a member at SATS is from the age of 11. If you are between 11-14 years old, you must train with a guardian.</p>",
+                "<p>From the year you turn 15, you will be able to train alone at our centers.</p>",
+                "<p>If you are under 18 years old, you must have a guardian accompany you to the center to sign the contract and act as the responsible payer.</p>"
+            ]
+        },
+        {
+            "title": "Are there any discounts?",
+            "content": [
+                "<p><strong>We offer various discount agreements on our memberships. The different agreements we offer are:</strong></p>",
+                "<ul>",
+                "<li>Student discount - 20%</li>",
+                "<li>Senior discount - 20%</li>",
+                "<li>Corporate discount</li>",
+                "</ul>",
+                "<p><strong>Note:</strong> You will not be able to register a discount on Premium Plans or register two different discounts.</p>",
+                "<p>In case of a guardian, you must have a membership at Zen Fitness.</p>"
+            ]
+        }
+    ]
+}

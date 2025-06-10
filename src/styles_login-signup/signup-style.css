@@ -1,0 +1,308 @@
+.selectedPlan-signupform {
+  display: flex;
+  flex-direction: column;
+  width: 60%;
+  margin: 0 auto;
+  color: var(--text-color);
+  padding: 15px;
+  border-radius: 10px;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  margin-bottom: 30px;
+  background-color: var(--light-color);
+
+
+}
+
+.signup-container h2 {
+  text-align: center;
+  font-weight: 700;
+  color: var(--accent-color);
+
+}
+
+.multiSecForm {
+  width: 100%;
+  padding: 20px;
+  height: 30em;
+}
+
+.multiSecForm label {
+  display: block;
+  
+}
+
+.multiSecForm h6 {
+  font-size: 1.2em;
+  color: var(--accent-color);
+  
+}
+
+.multiSecForm input {
+  font-size: 1.1em;
+
+}
+
+
+.multiSecForm h2 {
+  text-align: start!important;
+}
+
+
+.signup-buttons {
+  gap: 2%;
+  display: flex;
+}
+
+
+.signup-buttons button {
+  margin-top: 15px;
+  margin-right: 10px;
+  padding: 5px 10px 5px 10px;
+  border-radius: 3px;
+  color: var(--light-color);
+  background-color: var(--accent-color);
+  display: inline-block;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  border: solid 2px var(--accent-color);
+  cursor: pointer;
+  transition: color 0.2s, transform 0.2s, ;
+}
+
+.signup-buttons button:hover {
+  color: var(--accent-color);
+  background: none;
+  transform: scale(1.1);
+}
+
+
+.signup-container {
+  background: linear-gradient(90deg, var(--primary-color), var(--light-color)) ;
+
+  padding: 2% 0 2% 0;
+}
+
+
+
+
+/* -------- CONFIRM CHECKBOX -------- */
+
+
+.signup-checkboxes label {
+  display: flex;
+  vertical-align: middle;
+  margin-bottom: 10px;
+  font-size: 16px;
+  color: var(--secondary-color);
+  
+}
+
+
+.signup-checkboxes input[type="checkbox"] {
+  margin-right: 10px;
+  transform: translateY(2px); 
+  appearance: none;
+  width: 20px;
+  height: 20px;
+  background-color: var(--accent-color); 
+  border: 2px solid var(--secondary-color); 
+  border-radius: 4px; 
+}
+
+
+
+.signup-checkboxes input[type="checkbox"]:checked {
+  background-color: var(--secondary-color); 
+}
+
+/* Style for checkmark */
+.signup-checkboxes input[type="checkbox"]:checked::after {
+  content: '\2713';
+  font-size: 16px;
+  font-weight: 900;
+  color: var(--accent-color); 
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  display: block;
+}
+
+/* ------------ Seleced plan ------------ */
+
+.selectedPlan {
+  border-left: 3px solid var(--border-color);
+  padding-left: 30px;
+
+}
+
+.selectedPlan h3 {
+  text-align: center;
+  font-size: 2em;
+  padding-bottom: 5px;
+  border-bottom: 2px solid var(--border-color);
+
+}
+
+.selectedPlan-box {
+  font-size: 1.1em;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.selectedPlan-span span {
+  font-size: 1.4em;
+  font-weight: 600;
+}
+
+
+.selectedPlan-footer {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.planPriceRow span {
+  color: var(--accent-color);
+  font-size: 1.9em;
+  font-weight: 800;
+  font-style: italic;
+}
+
+.planPriceInfo {
+  padding-top: 5px;
+  border-top: 2px solid var(--border-color);
+  
+  
+}
+
+/* ------------ Step One: Personal info ------------ */
+.radio-label {
+  font-size: 1.1em;
+  display: inline-block;
+  position: relative;
+  padding-left: 25px;
+  margin-right: 15px;
+  cursor: pointer;
+  
+}
+
+.radio-label input[type="radio"] {
+  display: none;
+}
+
+.radio-custom {
+  position: absolute;
+  top: 2px;
+  left: 0;
+  width: 16px;
+  height: 16px;
+  border-radius: 50%;
+  background-color: var(--secondary-color);
+}
+
+.radio-label input[type="radio"]:checked + .radio-custom::after {
+  content: '';
+  display: block;
+  width: 10px;
+  height: 10px;
+  margin: 3.5px;
+  border-radius: 50%;
+  background-color: var(--accent-color);
+}
+
+
+/* ------------ Step three: Payments ------------ */
+
+.payment-info-section {
+  max-width: min-content;
+  
+}
+
+.cardNumber {
+  width: 100%;
+}
+
+.cvv-expDate-box {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  display: flex;
+  /* Use flexbox */
+  justify-content: space-between;
+  /* Distribute items along the main axis */
+  align-items: center;
+  /* Center items along the cross axis */
+}
+
+.cvv-expDate-box label {
+  flex-grow: 1;
+  /* Allow labels to grow and occupy available space */
+}
+
+.cvv-expDate-box label input {
+  width: 100%;
+  /* Make input fields occupy entire space of their respective labels */
+}
+
+.cvv-expDate-box label.cvv {
+  margin-right: 10px;
+  /* Margin between the CVV and Exp Date inputs */
+}
+
+.cvv-expDate-box label.expDate {
+  margin-left: 10px;
+  /* Margin between the CVV and Exp Date inputs */
+}
+
+
+
+
+@media (max-width: 500px) {
+  .multiSecForm input {
+    font-size: 1em;
+    max-width: 160px;
+  }
+  .signup-buttons {
+    display: flex;
+    flex-direction: column;
+    width: min-content;
+  }
+
+}
+
+/* Media query for screens less than 650px */
+@media (max-width: 650px) {
+  .signupFormContent {
+    flex-direction: column-reverse;
+    /* Change to vertical layout */
+    height: auto;
+    /* Remove fixed height */
+  }
+
+}
+
+@media (min-width: 900px) {
+
+  .selectedPlan-signupform {
+    display: flex;
+    flex-direction: row-reverse;
+    height: auto;
+    gap: 20px;
+  }
+
+  .selectedPlan-box {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 30px;
+    
+  }
+
+  .selectedPlan-footer {
+    margin-top: auto;
+    /* Push footer to the bottom */
+  }
+
+}

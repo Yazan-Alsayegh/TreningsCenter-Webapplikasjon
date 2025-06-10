@@ -1,0 +1,42 @@
+{
+  "sectionSubtitle": "WHY CHOOSE US",
+  "sectionTitle": "MAXIMISE YOUR STRENGTH",
+  "cards": [
+    {
+      "image": "./images/images-CardBox/gym.png",
+      "alt": "Offer 1",
+      "title": "Gym",
+      "description": "State-of-the-art equipment for optimal workouts."
+    },
+    {
+      "image": "images/images-CardBox/swimmer.png",
+      "alt": "Offer 2",
+      "title": "Swimming",
+      "description": "Enjoy our luxurious swimming areas."
+    },
+    {
+      "image": "images/images-CardBox/sauna.png",
+      "alt": "Offer 3",
+      "title": "Sauna",
+      "description": "Relax and rejuvenate in our premium saunas."
+    },
+    {
+      "image": "images/images-CardBox/coach.png",
+      "alt": "Offer 4",
+      "title": "Coaching",
+      "description": "Get guidance from top personal trainers."
+    },
+    {
+      "image": "images/images-CardBox/nourishments.png",
+      "alt": "Offer 5",
+      "title": "Nourishments",
+      "description": "Enjoy healthy snacks and drinks, included in every plan."
+    },
+    {
+      "image": "images/images-CardBox/staff.png",
+      "alt": "Offer 6",
+      "title": "Staff",
+      "description": "Our supportive staff is here to help."
+    }
+  ]
+}

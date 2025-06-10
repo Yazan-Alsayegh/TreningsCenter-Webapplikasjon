@@ -1,0 +1,191 @@
+/* PaymentContent.css */
+/* Author: Zafar Alem */
+
+
+.edit-buttons {
+    display: flex; 
+    justify-content: center;
+}
+
+.payment-title {
+    display: flex;
+    justify-content: center; /* Horizontal centering */
+}
+
+.payment-title h2 {
+    margin-bottom: -10px;
+}
+
+.payment-data {
+    display: flex;
+    justify-content: center; /* Center the child horizontally */
+    align-items: center; /* Center the child vertically */
+    padding-bottom: 20px;
+}
+
+.creditcard-card {
+    padding: 10px;
+    max-width: 380px;
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+    /* background: linear-gradient(to bottom right, #ffd700 0%, #ff69b4 50%, #00bfff 100%); */
+    color: var(--text-color);
+    background: linear-gradient(to bottom right, var(--primary-color) 0%, var(--light-fade) 50%, var(--primary-color) 100%);
+    border: 2px solid var(--secondary-color);
+    box-shadow: 0px 4px 8px var(--dark-fade);
+}
+
+.card-data {
+    /* border: 2px solid red; */
+}
+
+.cvv-display-field input[type="password"] {
+    color: var(--accent-color);
+    background: none;
+    border: none;
+}
+
+.cvv-display-field input[type="password"]:focus {
+    border: none;
+}
+
+.creditcard-card li {
+    font-size: 0.9rem;
+}
+
+.card-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center; /* Align items vertically */
+    margin-bottom: auto;
+    /* border: 2px solid blue; */
+}
+
+#card-chip {
+    height: 30px;
+}
+
+.card-header img {
+    height: 30px;
+}
+
+.paymentcard-field {
+    display: grid;
+    text-align: start;
+}
+
+.paymentcard-footer {
+    gap: 5px;
+    text-align: start;
+    /* border: 2px solid blue; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center; /* Align items vertically */
+}
+
+#cardNumber-field {
+    padding-top: 10px;
+    font-family: "Orbitron", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-size: 0.9em;
+    font-weight: 600;
+}
+
+
+#expiryDate {
+    display: flex;
+    font-family: "Orbitron", sans-serif;
+    gap: 5px;
+    font-size: 1rem;
+    font-weight: 600;
+}
+
+.payment-section {
+    max-width: min-content;
+    
+  }
+
+#expiryDate label{
+   font-size: 0.7rem;
+}
+
+#expiryDate{
+    display: flex;
+    align-items: center;
+    font-size: 0.8em;
+    /* border: 2px solid red; */
+ }
+
+#card-title {
+    text-align: start;
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 1.1em;
+
+
+}
+
+#Card-FullName {
+    font-family: "Luxurious Script", cursive;
+    font-weight: 600;
+    font-style: normal;
+    display: flex;
+    font-size: 1.1em;
+    flex-wrap: wrap; /* Allow wrapping on smaller screens */
+}
+
+
+#footerIcon {
+    height: 40px;
+    margin-top: auto;
+}
+
+/* END OF PAYMENT SECTION CSS */
+
+@media (min-width: 600px) {
+
+    .creditcard-card li {
+        font-size: 1rem;
+    }
+
+    #card-chip {
+        height: 40px;
+    }
+
+    .card-header img {
+        height: 50px;
+    }
+
+    #cardNumber-field {
+        font-size: 1.4em;
+    }
+
+    #expiryDate {
+        font-size: 0.8em;
+    }
+
+    #Card-FullName {
+        font-size: 40px!important;
+    }
+
+    #footerIcon {
+        height: 45px;
+    }
+
+    /* Adjustments for bigger text */
+    #Card-FullName,
+    #expiryDate li{
+        font-size: 1.2em;
+    }
+
+    #card-title {
+        font-size: 1.4em;
+    }
+    
+    .payment-content {
+        width: 450px;
+    }
+}

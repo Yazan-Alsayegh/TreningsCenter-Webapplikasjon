@@ -1,0 +1,16 @@
+{
+    "navLinks": [
+      { "name": "Home", "path": "/" },
+      { "name": "Services", "path": "/services" },
+      { "name": "Plans", "path": "/plans-page" },
+      { "name": "About Us", "path": "/about-us" },
+      { "name": "FAQ", "path": "/faq" }
+    ],
+    "buttons": {
+      "signIn": "SIGN IN",
+      "signOut": "SIGN OUT",
+      "signUp": "SIGN UP",
+      "myPlan": "MY PLAN"
+    }
+  }
+  

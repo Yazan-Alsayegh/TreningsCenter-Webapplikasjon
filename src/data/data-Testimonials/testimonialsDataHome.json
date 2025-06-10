@@ -1,0 +1,19 @@
+{
+    "header": "Testimonials",
+    "settings": {
+      "speed": 800,
+      "autoplaySpeed": 5000
+    },
+    "testimonials": [
+      { "id": 1, "text": "Best gym experience I've ever had. The staff is friendly and the workouts are effective.", "author": "Emma", "rating": 5 },
+      { "id": 2, "text": "A fantastic place to work out. The environment is motivating and the equipment is state-of-the-art.", "author": "Raj", "rating": 5 },
+      { "id": 3, "text": "Excellent gym with great personal trainers. I've seen amazing results.", "author": "Bashir", "rating": 5 },
+      { "id": 4, "text": "Love this gym! It's clean, spacious, and has all the equipment I need.", "author": "Lee", "rating": 5 },
+      { "id": 5, "text": "Great place to work out and meet new people. Highly recommend!", "author": "Fatima", "rating": 5 },
+      { "id": 6, "text": "I've been a member for years and it just keeps getting better!", "author": "Susan", "rating": 5 },
+      { "id": 7, "text": "The swimming facility is top-notch. Perfect for a cool down after a tough workout.", "author": "Rachel", "rating": 5 },
+      { "id": 8, "text": "I love the sauna facility. It's the perfect way to relax after my workouts.", "author": "John", "rating": 5 },
+      { "id": 9, "text": "Amazing gym with great swimming and sauna facilities. Highly recommend it!", "author": "Ron", "rating": 5 }
+    ]
+  }
+  

@@ -1,0 +1,106 @@
+{
+    "membershipData": [
+      {
+        "title": "How do I sign up?",
+        "content": "<p>You sign up via clicking the \"SIGN UP\" button top right of the web browser, then follow the instructions.</p>"
+      },
+      {
+        "title": "I am interested in a membership, what does Zen Fitness offer?",
+        "content": "<p>If you look at the top of the screen, you can find the \"Plans\" page. Scroll through the page and you will see what we offer.</p>"
+      },
+      {
+        "title": "I don't want to be a member anymore, how do I cancel my membership?",
+        "content": "<p>Please log-in into your personal account and click \"My Page\".</p><p>Here you should find your membership details, which also entails an option for canceling said membership.</p><b>Please note;</b><p>By canceling your membership, it will still be active for the current month and stop working the 1st following month.</p>"
+      },
+      {
+        "title": "If I purchased a Membership, how long does it take for it to activate?",
+        "content": "<p>The membership will be activated immediately, and you will receive an email with your log-in information.</p><p>If you haven't received an email within 5 minutes, please contact us and we will help you accordingly!</p>"
+      }
+    ],
+    "paymentData": [
+      {
+        "title": "How do I pay?",
+        "content": "<p>When registering, you pay the first installment and any registration fee. To avoid invoice fees, we recommend that you maintain your debit card on My Page.</p><p>This will mean that the membership is withdrawn automatically every month.</p>Please note;<p>We do not sell/modify your card details for marketing purposes etc.</p>"
+      },
+      {
+        "title": "Where do I find my receipt?",
+        "content": "<p>You will receive an e-mail to your registered membership account with the complete details of your existing membership.</p><b>This may take around 5-10 minutes before it arrives. If it doesn't show up, please contact us!</b>"
+      },
+      {
+        "title": "What happens if payment is late?",
+        "content": "<p>If for any reason the payment for the membership is not withdrawn on due date, it will try withrawing again within 7 days.</p><p><b>If payment hasn't been made within 7 extra days</b>, a warning will be sent where additional fees will follow.</p><p>If even after previous warning there is no payment made, the invoice will be sent to a <b>debt collection firm</b> who is now responsible for the invoice and will now incur additional fees.</p>"
+      }
+    ],
+    "accessData": [
+      {
+        "title": "How do I access the gym after registration?",
+        "content": "<p>After registrating and paying for membership, all you need to do is visit our facility. You will receive a log-in username and password via e-mail.</p><p>Once you have succesfully logged in once at the facility, you will receive a personal access card which you will use from there on.</p>"
+      },
+      {
+        "title": "I forgot my Access Card, what do I do?",
+        "content": "<p>Please talk to assigned employees who will double-check your membership and let you in after your membership has been verified.</p><p>If there are no available employees, please contact us!</p>"
+      },
+      {
+        "title": "I have lost my access card, what should I do?",
+        "content": "<p>Contact us immediately after finding out so we can restric the access of previous card and prepare you for the process of a fresh Access Card.</p><p><b>This will incur an additional fee around 4.99$.</b></p>"
+      },
+      {
+        "title": "I have canceled my Membership, what should I do with my Access Card?",
+        "content": "<p>We are sorry to see you go if you decided to cancel your membership. We truly value each customer, please let us know if there is anything we can improve or if anything was to dissatisfaction.</p><p>You can keep the Access Card as a memento of your stay with us. We wish you the best!</p>"
+      }
+    ],
+    "guestPolicies": [
+      {
+        "title": "Can I bring a guest to the gym?",
+        "content": "<p>Yes, members can bring a guest. Guest passes are available at the front desk.</p>"
+      },
+      {
+        "title": "What are the guest fees?",
+        "content": "<p>Guest fees vary depending on the day and time. Please check our website or inquire at the front desk for the latest rates.</p>"
+      },
+      {
+        "title": "Are there any access restrictions for guests?",
+        "content": "<p>Guests may have limited access to certain areas during peak times. Please check with the front desk for specific restrictions.</p>"
+      },
+      {
+        "title": "How many guests can I bring at one time?",
+        "content": "<p>Members can bring up to two guests at a time. Additional guests may be accommodated with prior approval.</p>"
+      }
+    ],
+    "privacyAndDataSecurity": [
+      {
+        "title": "How is my personal data protected?",
+        "content": "<p>We use industry-standard encryption and security protocols to protect your personal data.</p>"
+      },
+      {
+        "title": "What information do you collect from members?",
+        "content": "<p>We collect information such as contact details, payment information, and usage data to provide and improve our services.</p>"
+      },
+      {
+        "title": "How do you use the data you collect?",
+        "content": "<p>The data we collect is used to manage memberships, process payments, improve services, and communicate with members.</p>"
+      },
+      {
+        "title": "Where can I find your privacy policy?",
+        "content": "<p>Our privacy policy is available on our website and app. It details how we collect, use, and protect your information.</p>"
+      }
+    ],
+    "facilitiesAndEquipment": [
+      {
+        "title": "What equipment is available in the gym?",
+        "content": "<p>Our gym is equipped with a wide range of cardio machines, weight machines, free weights, and functional training equipment.</p>"
+      },
+      {
+        "title": "How often is the pool cleaned?",
+        "content": "<p>The pool is cleaned and maintained daily to ensure the highest standards of hygiene and safety.</p>"
+      },
+      {
+        "title": "Are there any rules for using the sauna?",
+        "content": "<p>Yes, sauna rules include showering before use, limiting sessions to 15-20 minutes, staying hydrated, and not using the sauna if you have certain medical conditions.</p>"
+      },
+      {
+        "title": "Is there a limit to how long I can use the equipment?",
+        "content": "<p>During peak hours, we ask members to limit their use of cardio equipment to 30 minutes to allow everyone a chance to use the machines.</p>"
+      }
+    ]
+  }

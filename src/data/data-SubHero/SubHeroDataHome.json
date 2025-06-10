@@ -1,0 +1,9 @@
+{
+  "bannerTitle": "Zen is the way",
+  "bannerDescription": "Elevate your fitness journey with our vibrant community, top-notch facilities, and personalized guidance from certified trainers. Choose from energizing group classes and flexible membership plans tailored to your lifestyle. Fuel your progress with expert nutrition guidance and celebrate every milestone with us. Contact us now to get started on your path to wellness.",
+  "bannerImages": ["images/images-SubHero/phone-myProgress.png", "images/images-SubHero/phone-Login.png"],
+  "appStoreBadge": "/images/images-SubHero/App Store Badge.png",
+  "googlePlayBadge": "/images/images-SubHero/google-play-badge.png",
+  "appStoreLink": "https://www.apple.com/app-store/",
+  "googlePlayLink": "https://play.google.com/store"
+}

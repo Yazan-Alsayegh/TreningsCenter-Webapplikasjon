@@ -1,0 +1,14 @@
+[
+    {
+        "slogan": {
+            "firstPart": "Find your Zen",
+            "secondPart": "Build your",
+            "thirdPart": "At ZenZone Fitness"
+        },
+        "imageURL": "/Images/images-Banner/gym.jpg"
+    },
+    {
+        
+        "imageURL": "/Images/images-Banner/swim.jpg" 
+    }
+]

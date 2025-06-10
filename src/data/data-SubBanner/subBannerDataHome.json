@@ -1,0 +1,14 @@
+{
+  "AboutUs": {
+      "imagePath1": "images/images-SubBanner/PT.jpg",
+      "altText": "Learn More About Us"
+  },
+  "FAQ": {
+      "imagePath1": "/images/images-SubBanner/FAQ.jpg",
+      "altText": "Frequently asked questions"
+  },
+  "Services": {
+    "imagePath": "/images/images-SubBanner/Services_Banner.jpg",
+    "altText": "Services Banner"
+  }
+}

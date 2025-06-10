@@ -1,0 +1,35 @@
+[
+    {
+      "name": "Basic",
+      "priceMonthly": 19.99,
+      "priceYearly": 228.99,
+      "features": [
+        "Both facilities",
+        "Within opening hours",
+        "Locker room",
+        "1 free PT session"
+      ]
+    },
+    {
+      "name": "Standard",
+      "priceMonthly": 39.99,
+      "priceYearly": 299.99,
+      "features": [
+        "Both facilities",
+        "Included outside opening hours",
+        "Lock for locker room",
+        "1 free PT session + Diet plan"
+      ]
+    },
+    {
+      "name": "Premium",
+      "priceMonthly": 59.99,
+      "priceYearly": 499.99,
+      "features": [
+        "Eveerything from other plans",
+        "VIP event free pass",
+        "Bi-weekly PT checkup"
+      ]
+    }
+  ]
+  
