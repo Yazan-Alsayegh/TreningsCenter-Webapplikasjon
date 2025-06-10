@@ -1,4 +1,4 @@
-Treningssenter Webapplikasjon
+##Treningssenter Webapplikasjon
 
 En moderne React-basert webapplikasjon utviklet for treningssentre, tilkoblet Firebase for sanntids database og autentisering. Systemet er designet for å håndtere medlemskap, treningsplaner og brukerinteraksjon gjennom et responsivt web-grensesnitt.
 Nøkkelfunksjoner:
@@ -10,7 +10,7 @@ Kontaktskjema og brukerinteraksjon
 Medlemsportal med profilhåndtering
 Betalingssystem og planinnhold
 
-Teknologier Brukt
+##Teknologier Brukt
 
 React for frontend-utvikling
 JavaScript (ES6+) for logikk
