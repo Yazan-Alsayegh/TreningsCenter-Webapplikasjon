@@ -4,7 +4,7 @@ En moderne React-basert webapplikasjon utviklet for treningssentre, tilkoblet Fi
 ![HomePage](https://github.com/user-attachments/assets/bb02ccd1-e5f6-40eb-9757-8cdc5b5cbdd4)
 
 
-Nøkkelfunksjoner:
+## Nøkkelfunksjoner
 Brukerregistrering og innlogging
 Firebase-autentisering og sikkerhet
 Medlemskapshåndtering og abonnementsplaner
